@@ -13,11 +13,11 @@
 
 `make publish`
 
-`sudo npm link
+`sudo npm link`
 
 ## 1. Checking a number for parity (brain-even)
 
-In this minigame, the player needs to answer whether the number in front of him is even or not.
+In this game, the player needs to answer whether the number in front of him is even or not.
 
 [![asciicast](https://asciinema.org/a/fMEJTb9A9P0uYrnr0H8tBHrkJ.svg)](https://asciinema.org/a/fMEJTb9A9P0uYrnr0H8tBHrkJ)
 
@@ -27,3 +27,9 @@ In this minigame, the player needs to answer whether the number in front of him 
 In this game, the player needs to answer mathematical expressions
 
 [![asciicast](https://asciinema.org/a/QgArsDSqlkCdCBybpNtBHgy0B.svg)](https://asciinema.org/a/QgArsDSqlkCdCBybpNtBHgy0B)
+
+## 3. Greatest common divisor (brain-gcd)
+
+In this game, the player must find the greatest common divisor of two random numbers
+
+[![asciicast](https://asciinema.org/a/L4rDyESUC1V0ZnlXBItwzZAjc.svg)](https://asciinema.org/a/L4rDyESUC1V0ZnlXBItwzZAjc)
