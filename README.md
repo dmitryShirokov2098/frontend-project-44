@@ -24,12 +24,18 @@ In this game, the player needs to answer whether the number in front of him is e
 
 ## 2. Calculator (brain-cal)
 
-In this game, the player needs to answer mathematical expressions
+In this game, the player needs to answer mathematical expressions.
 
 [![asciicast](https://asciinema.org/a/QgArsDSqlkCdCBybpNtBHgy0B.svg)](https://asciinema.org/a/QgArsDSqlkCdCBybpNtBHgy0B)
 
 ## 3. Greatest common divisor (brain-gcd)
 
-In this game, the player must find the greatest common divisor of two random numbers
+In this game, the player must find the greatest common divisor of two random numbers.
 
 [![asciicast](https://asciinema.org/a/L4rDyESUC1V0ZnlXBItwzZAjc.svg)](https://asciinema.org/a/L4rDyESUC1V0ZnlXBItwzZAjc)
+
+## 4. Arithmetic progression
+
+In this game, the player has to determine the missing element of the arithmetic progression of numbers.
+
+[![asciicast](https://asciinema.org/a/2hAZfmFjUVhLDuqrxrNHUSv5Q.svg)](https://asciinema.org/a/2hAZfmFjUVhLDuqrxrNHUSv5Q)
