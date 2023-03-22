@@ -38,7 +38,7 @@ In this game, the player must find the greatest common divisor of two random num
 
 In this game, the player has to determine the missing element of the arithmetic progression of numbers.
 
-[![asciicast](https://asciinema.org/a/OopxgK1i7tuhTBniU9iu3nGVs.svg)](https://asciinema.org/a/OopxgK1i7tuhTBniU9iu3nGVs)
+[![asciicast](https://asciinema.org/a/ZQGNcg2hvcD7GfW5b5856hXtS.svg)](https://asciinema.org/a/ZQGNcg2hvcD7GfW5b5856hXtS)
 
 ## 5. Is it a prime number?
 

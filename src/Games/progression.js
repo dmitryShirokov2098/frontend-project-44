@@ -4,7 +4,7 @@
 import launchGame from '../index.js';
 import getNum from '../getRandomNum.js';
 
-const rules = 'What number is missing ine the progression?';
+const rules = 'What number is missing in the progression?';
 
 const progression = () => {
   const begin = getNum(1, 30);
