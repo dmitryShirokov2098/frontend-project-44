@@ -13,7 +13,7 @@ const getAction = (arr) => {
 };
 
 const getExpress = () => {
-  const expression = `${getNum()} ${getAction(actions)} ${getNum()}`;
+  const expression = `${getNum(1, 30)} ${getAction(actions)} ${getNum(1, 30)}`;
   return expression;
 };
 

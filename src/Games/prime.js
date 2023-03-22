@@ -26,7 +26,7 @@ const check = (num) => {
 };
 
 const isPrimeGame = () => {
-  const inputNumber = getNum();
+  const inputNumber = getNum(1, 30);
   const rightAnswer = check(inputNumber);
   return [inputNumber, rightAnswer];
 };

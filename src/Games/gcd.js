@@ -19,8 +19,8 @@ const gcd = (num1, num2) => {
 };
 
 const gcdFun = () => {
-  const num1 = getNum();
-  const num2 = getNum();
+  const num1 = getNum(1, 30);
+  const num2 = getNum(1, 30);
   const task = `${num1} ${num2}`;
   const rightAnswer = gcd(num1, num2);
   return [task, rightAnswer];

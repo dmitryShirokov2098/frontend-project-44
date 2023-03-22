@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 
-const getNum = () => {
-  const min = Math.ceil(1);
-  const max = Math.floor(30);
+const getNum = (a, b) => {
+  const min = Math.ceil(a);
+  const max = Math.floor(b);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 

@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 /* eslint-disable no-console */
 
 import launchGame from '../index.js';
@@ -13,7 +14,7 @@ const check = (num) => {
 };
 
 const isEvenGame = () => {
-  const inputNumber = getNum();
+  const inputNumber = getNum(1, 100);
   const rightAnswer = check(inputNumber);
   return [inputNumber, rightAnswer];
 };

@@ -7,8 +7,8 @@ import getNum from '../getRandomNum.js';
 const rules = 'What number is missing ine the progression?';
 
 const progression = () => {
-  const begin = getNum();
-  const step = getNum();
+  const begin = getNum(1, 30);
+  const step = getNum(1, 30);
   let current = begin;
   const result = [begin];
   for (let i = 0; i < 10; i += 1) {
@@ -18,15 +18,11 @@ const progression = () => {
   return result;
 };
 
-const getRandomPlace = () => {
-  const min = Math.ceil(0);
-  const max = Math.floor(10);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+const randomPlace = getNum(0, 10);
 
 const replacement = () => {
   const coll = progression();
-  const index = getRandomPlace();
+  const index = randomPlace;
   const rightAnswer = String(coll[index]);
   coll[index] = '..';
   let stringProg = '';
