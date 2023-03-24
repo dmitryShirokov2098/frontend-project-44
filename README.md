@@ -34,13 +34,13 @@ In this game, the player must find the greatest common divisor of two random num
 
 [![asciicast](https://asciinema.org/a/HqZBY5WSNPPGBjR2fdmeTP2xp.svg)](https://asciinema.org/a/HqZBY5WSNPPGBjR2fdmeTP2xp)
 
-## 4. Arithmetic progression
+## 4. Arithmetic progression (brain-progression)
 
 In this game, the player has to determine the missing element of the arithmetic progression of numbers.
 
 [![asciicast](https://asciinema.org/a/ZQGNcg2hvcD7GfW5b5856hXtS.svg)](https://asciinema.org/a/ZQGNcg2hvcD7GfW5b5856hXtS)
 
-## 5. Is it a prime number?
+## 5. Is it a prime number? (brain-prime)
 
 In this game, the player needs to answer whether the number on the screen is prime or not.
 
