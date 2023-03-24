@@ -1,8 +1,5 @@
-/* eslint-disable import/extensions */
-/* eslint-disable no-console */
-
 import launchGame from '../index.js';
-import getNum from '../getRandomNum.js';
+import getRandomNum from '../utils.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
 
@@ -18,14 +15,14 @@ const gcd = (num1, num2) => {
   return String(result);
 };
 
-const gcdFun = () => {
-  const num1 = getNum(1, 30);
-  const num2 = getNum(1, 30);
+const playGame = () => {
+  const num1 = getRandomNum(1, 30);
+  const num2 = getRandomNum(1, 30);
   const task = `${num1} ${num2}`;
   const rightAnswer = gcd(num1, num2);
   return [task, rightAnswer];
 };
 
-const run = () => launchGame(gcdFun, rules);
+const run = () => launchGame(playGame, rules);
 
 export default run;

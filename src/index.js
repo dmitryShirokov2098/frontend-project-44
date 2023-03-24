@@ -1,14 +1,14 @@
 /* eslint-disable no-console */
 import readlineSync from 'readline-sync';
-import greeting from '../src/cli.js';
+import greeting from './cli.js';
 
 const numOfRounds = 3;
 
-const launchGame = (fun, rules) => {
+const launchGame = (game, rules) => {
   const userName = greeting();
   console.log(rules);
   for (let i = 1; i <= numOfRounds; i += 1) {
-    const [task, rightAnswer] = fun();
+    const [task, rightAnswer] = game();
     console.log(`Question: ${task}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (rightAnswer === userAnswer) {

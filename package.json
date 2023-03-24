@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/dmitryShirokov2098/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/dmitryShirokov2098/frontend-project-44/actions)",
+  "description": "Brain Games is a Hexlet educational project consisting of five math games.",
   "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
