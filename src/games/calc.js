@@ -15,27 +15,22 @@ const getExpressionData = () => {
   return expressionData;
 };
 const calc = (num1, num2, action) => {
-  let result;
   switch (action) {
     case '+':
-      result = num1 + num2;
-      break;
+      return num1 + num2;
     case '-':
-      result = num1 - num2;
-      break;
+      return num1 - num2;
     case '*':
-      result = num1 * num2;
-      break;
+      return num1 * num2;
     default:
-      break;
+      throw new Error('smth');
   }
-  return String(result);
 };
 
 const playCalc = () => {
   const [num1, action, num2] = getExpressionData();
   const expression = `${num1} ${action} ${num2}`;
-  const rightAnswer = calc(num1, num2, action);
+  const rightAnswer = String(calc(num1, num2, action));
   return [expression, rightAnswer];
 };
 
