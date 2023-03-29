@@ -23,7 +23,7 @@ const calc = (num1, num2, action) => {
     case '*':
       return num1 * num2;
     default:
-      throw new Error('smth');
+      throw new Error('Oops! Try again');
   }
 };
 
